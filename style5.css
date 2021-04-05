@@ -1,0 +1,632 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+
+.header_size {
+    height: 250px;
+    width: 100%;
+}
+
+.flex-container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.responsive-picture {    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;     
+}
+
+.responsive-picture__url-image {
+    background-image: url(https://www.grekomania.ru/images/greek-articles/other/big/288_morya-grecii-4.jpg);
+}
+
+.header__opasity {
+    height: 30%;
+    width: 90%;
+    background: rgba(171, 177, 180, 0.4);
+}
+
+.header__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.text-heading {
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    padding: 20px;      
+}
+
+.text-title {
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(0, 173, 138);
+}
+
+.text-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(53, 59, 66);
+}
+
+.text-description {
+    color: rgb(128, 139, 148);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.text_color {
+    color: white;
+}
+
+.block-menu {
+    width: 100%;
+    background-color: rgb(0, 173, 138);
+    position: relative;      
+}
+
+.main-menu__line {
+    height: 1px;
+    background-color: white;
+    width: 90%;        
+}
+
+.block_location_center {
+    margin: 0 auto;
+}
+
+#check-menu {
+    display: none;
+}
+
+.block-menu__label {
+    display: block;    
+    width: 45px;
+    height: 40px;
+    background-color: black;
+    border-radius: 10%; 
+    position: absolute;
+    top: 20px;
+    right: 20px;      
+}
+
+.check-menu__line {    
+    width: 25px;
+    height: 2px;
+    background-color: white; 
+    position: absolute;
+    top: 13px;
+    left: 10px;      
+}
+
+.second-burger-line {
+    top: 20px;
+} 
+
+.third-burger-line {
+    top: 27px;
+}
+
+.main-menu {         
+    max-height: 0;
+    font-size: 0;    
+    transition: 0.5s all; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.main-menu__text {
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-menu__text_avtive {
+    color: black;
+}
+
+#check-menu:checked ~ .main-menu {
+    max-height: 500px;
+    font-size: 15px;
+}
+
+.main-menu__text:hover {
+    color: black;
+}
+
+.main-menu__text:active {
+    color: black;
+}
+
+.section {        
+    width: 100%;    
+}
+
+.section-welcome_height {
+    height: 1650px;
+}
+
+.section__container {
+    width: 95%;
+    height: 95%;
+    text-align: center;        
+}
+
+.flex-container-column-space-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box-shadow {
+    width: 95%;    
+    box-shadow: 0px 0px 5px 1px rgb(108, 108, 109);    
+}
+
+.box-shadow_height {
+    height: 230px;
+}
+
+.box-shadow_margin-top {
+    margin-top: 30px;
+}
+
+.responsive-picture_size {    
+    width: 97%;
+    height: 97%;      
+}
+
+.responsive-picture__url-image1 {
+    background-image: url(https://desktoplux.com/wallpapers/3000/2129/800x500.jpg);
+}
+
+.responsive-picture__url-image2 {
+    background-image: url(https://hotel-spb.ru/assets/components/phpthumbof/cache/room-business_002.788c4c20502cae038e66e118c369e7b7.jpg);
+}
+
+.responsive-picture__url-image3 {
+    background-image: url(https://static3.depositphotos.com/1009905/269/i/450/depositphotos_2690303-stock-photo-interior-of-the-restaurant.jpg);
+}
+
+.responsive-picture__url-image4 {
+    background-image: url(https://sc01.alicdn.com/kf/UTB8N3RUhVfJXKJkSamHq6zLyVXa7/100-Cotton-Terry-Towels-High-Quality-Spa.jpg_350x350.jpg);
+}
+
+.block_margin-top_20 {
+    margin-top: 20px;
+}
+
+.section-superlista_height {
+    height: 1700px;
+}
+
+.image5_height {
+    height: 170px;
+}
+
+.image8_height {
+    height: 600px;
+}
+
+.responsive-picture__url-image5 {
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/16/d4/d5/4d/caption.jpg);
+}
+
+.responsive-picture__url-image6 {
+    background-image: url(https://st.focusedcollection.com/11914494/i/650/focused_155233060-stock-photo-man-sitting-at-table-and.jpg);
+}
+
+.responsive-picture__url-image7 {
+    background-image: url(https://m.polit.ru/media/photolib/2011/10/14/photo_03.jpg);
+}
+
+.responsive-picture__url-image8 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTgqoM9gF6YFqTy2lc84rVNC8bcHm5qrPfg81oe2i8CGhMCYnHu);
+}
+
+.responsive-picture__face {    
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;    
+}
+
+.responsive-picture__url-face1 {
+    background-image: url(https://svopi.ru/uploads/posts/2016-07/1468301903_122.jpg);
+}
+
+.responsive-picture__url-face2 {
+    background-image: url(https://cdn.lifehacker.ru/wp-content/uploads/2017/12/IMG_0137---kopiya_1513326715.jpg);
+}
+
+.responsive-picture__url-face3 {
+    background-image: url(https://files.adme.ru/files/news/part_165/1658265/8881965-41015610-2-0-1514194755-1514194760-1500-1-1514194760-650-2335ade43a-1514279441.jpg);
+}
+
+.responsive-picture__url-face4 {
+    background-image: url(https://s.rfi.fr/media/display/24b283d6-4a61-11ea-b86e-005056a98db9/w:980/p:16x9/000_1oe2xe_0.jpg);
+}
+
+.responsive-picture__url-face5 {
+    background-image: url(https://st.kp.yandex.net/images/actor_iphone/iphone360_2280681.jpg);
+}
+
+.responsive-picture__url-face6 {
+    background-image: url(https://files.adme.ru/files/news/part_165/1658265/8882015-41015410-1-0-1514194714-1514194724-1500-1-1514194724-650-4561b7ccf5-1514279441.jpg);
+}
+
+.section-testimonial_height {    
+    height: 1950px;
+}
+
+.section-testimonial_color {
+    background-color: rgb(226, 242, 243);
+}
+
+.text_left {
+    text-align: left;
+}
+
+.text_right {
+    text-align: right;
+}
+
+.section-testimonial__content {
+    width: 100%;
+    height: 180px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px 1px rgb(108, 108, 109); 
+    margin-top: 20px;   
+}
+
+.section-testimonial__text {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+
+.footer {
+    background-color: rgb(59, 57, 57);
+    width: 100%;        
+}
+
+.footer_height {
+    height: 800px;
+}
+
+.footer__container {
+    width: 90%;
+    height: 90%;   
+}
+
+.footer__icon {
+    color: rgb(128, 139, 148);
+}
+
+i.footer__icon-phone {
+    font-size: 20px;
+}
+
+i.footer__icon_mobile {
+    font-size: 35px;
+}
+
+.text_margin-left {
+    margin-left: 10px;
+}
+
+.footer__content {
+    height: 160px;
+    width: 200px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;    
+}
+
+.text_line-height3 {
+    line-height: 13px;    
+}
+
+.text_line-height1 {
+    line-height: 20px;    
+}
+
+.text_line-height2 {
+    line-height: 43px;    
+}
+
+@media (min-width:415px) {
+
+    .text-description_indent {
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .box-shadow_height {
+        height: 150px;
+    }
+
+    .section-welcome_height {
+        height: 860px;
+    }    
+
+    .section-welcome__two-blocks {        
+        display: flex;
+        flex-direction: row;       
+    }
+
+    .header_size {
+        height: 350px;
+    }
+
+    .section-superlista__two-bloks{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0 auto;
+        width: 95%;
+        height: 150px;        
+    }
+
+    .section-superlista__picture {
+        margin-left: 10px;
+    }
+
+    .section-superlista_height{
+        height: 1400px;
+    }
+
+    .image5_height {
+        height: 230px;
+    }
+
+    .section-superlista__big-picture {
+        padding-top: 60px;
+    }
+
+    .box-shadow_margin-top-none {
+        margin-top: 0;
+    }
+
+    .block_margin-top_20-none {
+        margin-top: 0;
+    }
+
+    .footer__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer_height {
+        height: 400px;
+    }
+    
+}
+
+@media (min-width:670px) {
+
+    .text-title {
+        font-size: 30px;        
+    }
+    
+    .text-subtitle {
+        font-size: 20px;
+    }
+
+    .section-welcome__content {        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;        
+    }    
+
+    .section-welcome_height {
+        height: 600px;
+    }
+
+    .section-superlista__big-picture {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 40%;
+        padding-top: 30px;        
+    }
+
+    .header_size {
+        height: 500px;
+    }
+
+    .image5_height {
+        height: 300px;
+    }
+
+    .box-shadow_height {
+        height: 170px;
+    }
+
+    .image8_height {
+        height: 350px;
+    }
+
+    .section__flex-row {        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .section-superlista__three-blocks {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;        
+        height: 400px;
+    }    
+
+    .section-testimonial__content {
+        margin-left: 20px;
+    }
+
+    .responsive-picture__face {
+        margin-left: 0;
+        height: 70px;
+    }
+
+    .section-superlista_height {
+        height: 800px;
+    }
+
+    .section-testimonial_height {
+        height: 1300px;
+    }   
+
+}
+
+@media (min-width:770px) {
+
+    .block_display_none {
+        display: none;
+    }
+
+    .header_size {
+        height: 600px;
+    }
+
+    .flex-container-row-space-between {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }    
+
+    .main-menu {  
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;                  
+        max-height: 25px;
+        font-size: 17px;                    
+    }
+
+    .main-menu_size {
+        width: 450px;
+        margin: 25px;       
+    }
+
+    .footer__container {
+        width: 500px;
+    }
+    
+}
+
+@media (min-width:990px) { 
+    
+    .text-title {
+        font-size: 35px;        
+    }
+
+    .text-heading {
+        font-size: 45px;        
+        padding: 7px;          
+    }
+
+    .block-menu_width {
+        width: 1000px;        
+    }
+
+    .header_size {
+        height: 700px;
+    }
+
+    .box-shadow_height {
+        height: 250px;
+    }
+
+    .image5_height {
+        height: 400px;
+    }
+
+    .image8_height {
+        height: 540px;
+    }
+
+    .section-superlista_height {
+        height: 1000px;
+    }
+
+    .section-welcome_height {
+        height: 600px;
+    }
+
+    .section-testimonial__three-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 600px;
+    }
+    
+    .section__content {
+        margin-left: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .responsive-picture__face_size {        
+        width: 60px;
+        height: 60px;
+    }
+
+    .responsive-picture__face {
+        margin-left: 20px;
+    }  
+    
+    .section-testimonial_height {
+        height: 700px;
+    }  
+
+    .block_margin-top_20-none2{
+        margin-top: 0px;
+    }
+
+    .footer_height {
+        height: 200px;
+    }
+
+    .footer__container {
+        width: 800px;
+    }
+
+}
+11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
